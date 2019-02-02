@@ -1,0 +1,17 @@
+{
+	"display": {
+		"title": "Randomizer API",
+		"description": "Random number generator",
+		"icon": {
+			"item": "minecraft:repeater"
+		},
+		"announce_to_chat": false,
+		"show_toast": false
+	},
+	"parent": "boomber:utils/utils",
+	"criteria": {
+		"trigger": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

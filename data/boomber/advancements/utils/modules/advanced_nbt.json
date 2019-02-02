@@ -1,0 +1,17 @@
+{
+	"display": {
+		"title": "Advanced NBT manipulator API",
+		"description": "Better control over NBT",
+		"icon": {
+			"item": "minecraft:redstone"
+		},
+		"announce_to_chat": false,
+		"show_toast": false
+	},
+	"parent": "boomber:utils/utils",
+	"criteria": {
+		"trigger": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

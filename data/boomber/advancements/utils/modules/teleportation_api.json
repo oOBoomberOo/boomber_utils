@@ -1,0 +1,17 @@
+{
+	"display": {
+		"title": "Teleportation API",
+		"description": "Simple teleporation",
+		"icon": {
+			"item": "minecraft:ender_pearl"
+		},
+		"announce_to_chat": false,
+		"show_toast": false
+	},
+	"parent": "boomber:utils/utils",
+	"criteria": {
+		"trigger": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

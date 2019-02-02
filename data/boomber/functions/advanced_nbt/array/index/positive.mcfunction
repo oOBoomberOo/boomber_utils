@@ -1,0 +1,2 @@
+execute as @s if score #bb.utils.nbt.length bb.calculation > #bb.utils.nbt.index bb.calculation run function boomber:advanced_nbt/array/index/index
+execute as @s if score #bb.utils.nbt.length bb.calculation <= #bb.utils.nbt.index bb.calculation run data modify entity @s ArmorItems[3].tag.ucit.boomber.utils.temp set value "ArrayIndexOutOfBoundsException"

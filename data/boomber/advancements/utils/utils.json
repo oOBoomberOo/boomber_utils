@@ -1,0 +1,18 @@
+{
+	"display": {
+		"title": "Boomber's Utility v0.1",
+		"description": "",
+		"icon": {
+			"item": "minecraft:redstone"
+		},
+		"announce_to_chat": false,
+		"show_toast": false
+	},
+	"parent": "boomber:boomber",
+	"criteria": {
+		"trigger": {
+			"trigger": "minecraft:tick"
+		}
+	
+	}
+}
