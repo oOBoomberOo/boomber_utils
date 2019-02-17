@@ -1,0 +1,3 @@
+tellraw @a[tag=boomber.advanced_nbt.debug] [{"text": "Input: "}, {"nbt": "ArmorItems[3].tag.ucit.boomber.nbt.input","entity": "@e[tag=boomber.utils.memory, limit=1]"}]
+tellraw @a[tag=boomber.advanced_nbt.debug] [{"text": "Output: "}, {"nbt": "ArmorItems[3].tag.ucit.boomber.nbt.output","entity": "@e[tag=boomber.utils.memory, limit=1]"}]
+tellraw @a[tag=boomber.advanced_nbt.debug] [{"text": "Temp: "}, {"nbt": "ArmorItems[3].tag.ucit.boomber.nbt.temp","entity": "@e[tag=boomber.utils.memory, limit=1]"}]

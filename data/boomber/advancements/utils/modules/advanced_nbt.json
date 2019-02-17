@@ -1,9 +1,9 @@
 {
 	"display": {
-		"title": "Advanced NBT manipulator API",
+		"title": "NBT Manipulator API",
 		"description": "Better control over NBT",
 		"icon": {
-			"item": "minecraft:redstone"
+			"item": "minecraft:structure_block"
 		},
 		"announce_to_chat": false,
 		"show_toast": false

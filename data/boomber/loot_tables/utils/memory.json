@@ -1,0 +1,33 @@
+{
+	"type": "minecraft:item",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": [
+								{"text": "Memory Disk", "color": "purple", "italic": false}
+							]
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								{"text": "If you had this in your inventory.", "color": "gray", "italic": false},
+								{"text": "Throw it away! no one is suppose to have this!!", "color": "gray", "italic": false}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{ucit:{boomber:{nbt:{input:0b, output:0b, temp:{}}}, id:\"memory_disk\", from:\"boomber:utils\", author:[\"boomber\"]}}"
+						}
+					],
+					"name": "minecraft:paper"
+				}
+			]
+		}
+	]
+}

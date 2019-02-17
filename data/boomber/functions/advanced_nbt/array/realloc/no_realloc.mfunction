@@ -1,0 +1,2 @@
+execute as @s[scores={bb.success=0}] run data modify entity @e[tag=boomber.utils.memory, limit=1] ArmorItems[3].tag.ucit.boomber.nbt.temp set from entity @e[tag=boomber.utils.memory, limit=1] ArmorItems[3].tag.ucit.boomber.nbt.input
+execute as @s[scores={bb.success=0}] run scoreboard players set @s bb.success 1

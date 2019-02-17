@@ -1,15 +1,20 @@
 #
 # Select an element in a list using index
 #
-# Required nbt:
-# -ArmorItems[3].tag.ucit.boomber.utils.data: a copy of array you want to select an element from
+# Requirement:
+# (
+#  Entity @e[tag=boomber.utils.memory],
+#  Array ArmorItems[3].tag.ucit.boomber.nbt.input: a copy of array you want to select an element from,
+#  Score #bb.nbt.input.index: index of an element
+# )
 #
-execute as @s run scoreboard players set @s bb.success 0
-scoreboard players operation #bb.utils.nbt.index bb.calculation = #bb.utils.input.nbt.select.index bb.variable
-execute as @s store result score #bb.utils.nbt.length bb.calculation run data get entity @s ArmorItems[3].tag.ucit.boomber.utils.data
+scoreboard players set @s bb.success 0
+scoreboard players operation #bb.nbt.index bb.calculation = #bb.nbt.input.index bb.variable
+execute as @e[tag=boomber.utils.memory] store result score #bb.nbt.length bb.calculation run data get entity @s ArmorItems[3].tag.ucit.boomber.nbt.input
 
-execute as @s[scores={bb.success=0}] if score #bb.utils.nbt.index bb.calculation matches 0.. run function boomber:advanced_nbt/array/index/positive
-execute as @s[scores={bb.success=0}] if score #bb.utils.nbt.index bb.calculation matches ..-1 run function boomber:advanced_nbt/array/index/negative
+execute as @s[scores={bb.success=0}] if score #bb.nbt.index bb.calculation matches 0.. run function boomber:advanced_nbt/array/index/positive
+execute as @s[scores={bb.success=0}] if score #bb.nbt.index bb.calculation matches ..-1 run function boomber:advanced_nbt/array/index/negative
 
-execute as @s run data modify entity @s ArmorItems[3].tag.ucit.boomber.utils.result set from entity @s ArmorItems[3].tag.ucit.boomber.utils.temp
-execute as @s run scoreboard players set @s bb.success 0
+execute as @e[tag=boomber.utils.memory] run data modify entity @s ArmorItems[3].tag.ucit.boomber.nbt.output set from entity @s ArmorItems[3].tag.ucit.boomber.nbt.temp
+
+scoreboard players set @s bb.success 0
