@@ -19,4 +19,4 @@ execute as @s[scores={bb.success=0}] if score #bb.nbt.size bb.calculation > #bb.
 execute as @s[scores={bb.success=0}] if score #bb.nbt.size bb.calculation <= #bb.nbt.length bb.calculation run function boomber:advanced_nbt/array/realloc/no_realloc
 
 execute as @e[tag=boomber.utils.memory] run data modify entity @s ArmorItems[3].tag.ucit.boomber.nbt.output set from entity @s ArmorItems[3].tag.ucit.boomber.nbt.temp
-scoreboard players set @s bb.success 0
+
