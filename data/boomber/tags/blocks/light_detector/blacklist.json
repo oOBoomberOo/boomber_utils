@@ -1,0 +1,30 @@
+{
+    "values": [
+        "minecraft:redstone_wire",
+        "minecraft:farmland",
+        "minecraft:wheat",
+        "minecraft:melon_stem",
+        "minecraft:pumpkin_stem",
+        "minecraft:beetroots",
+        "minecraft:carrots",
+        "minecraft:potatoes",
+        "minecraft:rose_bush",
+        "minecraft:peony",
+        "minecraft:sunflower",
+        "minecraft:lilac",
+        "minecraft:tall_grass",
+        "minecraft:large_fern",
+        "minecraft:oak_door",
+        "minecraft:spruce_door",
+        "minecraft:birch_door",
+        "minecraft:jungle_door",
+        "minecraft:acacia_door",
+        "minecraft:dark_oak_door",
+        "minecraft:iron_door",
+        "minecraft:kelp_plant",
+        "minecraft:kelp",
+        "minecraft:piston_head",
+        "minecraft:turtle_egg",
+        "minecraft:bamboo"
+    ]
+}

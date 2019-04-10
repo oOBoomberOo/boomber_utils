@@ -1,18 +1,17 @@
 {
 	"display": {
-		"title": "Boomber's Utility v0.2.0",
+		"title": "Light Detector API",
 		"description": "",
 		"icon": {
-			"item": "minecraft:redstone"
+			"item": "minecraft:daylight_detector"
 		},
 		"announce_to_chat": false,
 		"show_toast": false
 	},
-	"parent": "boomber:boomber",
+	"parent": "boomber:utils/utils",
 	"criteria": {
 		"trigger": {
 			"trigger": "minecraft:tick"
 		}
-	
 	}
 }
