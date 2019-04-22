@@ -1,0 +1,17 @@
+{
+	"display": {
+		"title": "Math API",
+		"description": "Doing math in minecraft",
+		"icon": {
+			"item": "minecraft:book"
+		},
+		"announce_to_chat": false,
+		"show_toast": false
+	},
+	"parent": "boomber:utils/utils",
+	"criteria": {
+		"trigger": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

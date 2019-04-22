@@ -1,0 +1,21 @@
+execute if score #bb.math.angle bb.calculation matches 140 run scoreboard players set #bb.math.result bb.variable -766
+execute if score #bb.math.angle bb.calculation matches 141 run scoreboard players set #bb.math.result bb.variable -777
+execute if score #bb.math.angle bb.calculation matches 142 run scoreboard players set #bb.math.result bb.variable -788
+execute if score #bb.math.angle bb.calculation matches 143 run scoreboard players set #bb.math.result bb.variable -799
+execute if score #bb.math.angle bb.calculation matches 144 run scoreboard players set #bb.math.result bb.variable -809
+execute if score #bb.math.angle bb.calculation matches 145 run scoreboard players set #bb.math.result bb.variable -819
+execute if score #bb.math.angle bb.calculation matches 146 run scoreboard players set #bb.math.result bb.variable -829
+execute if score #bb.math.angle bb.calculation matches 147 run scoreboard players set #bb.math.result bb.variable -839
+execute if score #bb.math.angle bb.calculation matches 148 run scoreboard players set #bb.math.result bb.variable -848
+execute if score #bb.math.angle bb.calculation matches 149 run scoreboard players set #bb.math.result bb.variable -857
+execute if score #bb.math.angle bb.calculation matches 150 run scoreboard players set #bb.math.result bb.variable -866
+execute if score #bb.math.angle bb.calculation matches 151 run scoreboard players set #bb.math.result bb.variable -875
+execute if score #bb.math.angle bb.calculation matches 152 run scoreboard players set #bb.math.result bb.variable -883
+execute if score #bb.math.angle bb.calculation matches 153 run scoreboard players set #bb.math.result bb.variable -891
+execute if score #bb.math.angle bb.calculation matches 154 run scoreboard players set #bb.math.result bb.variable -899
+execute if score #bb.math.angle bb.calculation matches 155 run scoreboard players set #bb.math.result bb.variable -906
+execute if score #bb.math.angle bb.calculation matches 156 run scoreboard players set #bb.math.result bb.variable -914
+execute if score #bb.math.angle bb.calculation matches 157 run scoreboard players set #bb.math.result bb.variable -921
+execute if score #bb.math.angle bb.calculation matches 158 run scoreboard players set #bb.math.result bb.variable -927
+execute if score #bb.math.angle bb.calculation matches 159 run scoreboard players set #bb.math.result bb.variable -934
+
