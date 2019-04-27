@@ -1,0 +1,17 @@
+{
+	"display": {
+		"title": "Identification API",
+		"description": "",
+		"icon": {
+			"item": "minecraft:player_head"
+		},
+		"announce_to_chat": false,
+		"show_toast": false
+	},
+	"parent": "boomber:utils/utils",
+	"criteria": {
+		"trigger": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

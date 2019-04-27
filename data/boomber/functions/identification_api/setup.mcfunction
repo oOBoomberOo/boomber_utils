@@ -1,0 +1,1 @@
+scoreboard objectives add bb.id_api dummy
