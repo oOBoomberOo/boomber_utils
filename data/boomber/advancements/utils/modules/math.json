@@ -3,7 +3,7 @@
 		"title": "Math API",
 		"description": "Doing math in minecraft",
 		"icon": {
-			"item": "minecraft:book"
+			"item": "minecraft:oak_sign"
 		},
 		"announce_to_chat": false,
 		"show_toast": false
