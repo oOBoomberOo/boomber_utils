@@ -1,0 +1,1 @@
+execute if score @s bb.id_api = #bb.id.input.find bb.variable run tag @s add boomber.id_api.found

@@ -1,18 +1,17 @@
 {
 	"display": {
-		"title": "Boomber's Utility v0.3.0",
+		"title": "Identification API",
 		"description": "",
 		"icon": {
-			"item": "minecraft:redstone"
+			"item": "minecraft:player_head"
 		},
 		"announce_to_chat": false,
 		"show_toast": false
 	},
-	"parent": "boomber:boomber",
+	"parent": "boomber:utils/modules/math",
 	"criteria": {
 		"trigger": {
 			"trigger": "minecraft:tick"
 		}
-	
 	}
 }

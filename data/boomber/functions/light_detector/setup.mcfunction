@@ -1,0 +1,1 @@
+scoreboard objectives add bb.light_level dummy

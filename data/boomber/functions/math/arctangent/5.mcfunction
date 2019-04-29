@@ -1,0 +1,11 @@
+execute if score #bb.math.number bb.calculation matches 5396..5976 run scoreboard players set #bb.math.result bb.variable 80
+execute if score #bb.math.number bb.calculation matches 5976..6691 run scoreboard players set #bb.math.result bb.variable 81
+execute if score #bb.math.number bb.calculation matches 6691..7596 run scoreboard players set #bb.math.result bb.variable 82
+execute if score #bb.math.number bb.calculation matches 7596..8777 run scoreboard players set #bb.math.result bb.variable 83
+execute if score #bb.math.number bb.calculation matches 8777..10385 run scoreboard players set #bb.math.result bb.variable 84
+execute if score #bb.math.number bb.calculation matches 10385..12706 run scoreboard players set #bb.math.result bb.variable 85
+execute if score #bb.math.number bb.calculation matches 12706..16350 run scoreboard players set #bb.math.result bb.variable 86
+execute if score #bb.math.number bb.calculation matches 16350..22904 run scoreboard players set #bb.math.result bb.variable 87
+execute if score #bb.math.number bb.calculation matches 22904..38188 run scoreboard players set #bb.math.result bb.variable 88
+execute if score #bb.math.number bb.calculation matches 38188..114589 run scoreboard players set #bb.math.result bb.variable 89
+execute if score #bb.math.number bb.calculation matches 114589..2147483647 run scoreboard players set #bb.math.result bb.variable 90

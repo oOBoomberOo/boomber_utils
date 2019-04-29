@@ -8,7 +8,7 @@
 		"announce_to_chat": false,
 		"show_toast": false
 	},
-	"parent": "boomber:utils/utils",
+	"parent": "boomber:utils/modules/randomizer",
 	"criteria": {
 		"trigger": {
 			"trigger": "minecraft:tick"
