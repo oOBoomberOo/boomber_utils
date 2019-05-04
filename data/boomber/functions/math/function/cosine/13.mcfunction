@@ -1,0 +1,21 @@
+execute if score #bb.math.θ bb.calculation matches 240 run scoreboard players set #bb.math.result bb.variable -500
+execute if score #bb.math.θ bb.calculation matches 241 run scoreboard players set #bb.math.result bb.variable -485
+execute if score #bb.math.θ bb.calculation matches 242 run scoreboard players set #bb.math.result bb.variable -469
+execute if score #bb.math.θ bb.calculation matches 243 run scoreboard players set #bb.math.result bb.variable -454
+execute if score #bb.math.θ bb.calculation matches 244 run scoreboard players set #bb.math.result bb.variable -438
+execute if score #bb.math.θ bb.calculation matches 245 run scoreboard players set #bb.math.result bb.variable -423
+execute if score #bb.math.θ bb.calculation matches 246 run scoreboard players set #bb.math.result bb.variable -407
+execute if score #bb.math.θ bb.calculation matches 247 run scoreboard players set #bb.math.result bb.variable -391
+execute if score #bb.math.θ bb.calculation matches 248 run scoreboard players set #bb.math.result bb.variable -375
+execute if score #bb.math.θ bb.calculation matches 249 run scoreboard players set #bb.math.result bb.variable -358
+execute if score #bb.math.θ bb.calculation matches 250 run scoreboard players set #bb.math.result bb.variable -342
+execute if score #bb.math.θ bb.calculation matches 251 run scoreboard players set #bb.math.result bb.variable -326
+execute if score #bb.math.θ bb.calculation matches 252 run scoreboard players set #bb.math.result bb.variable -309
+execute if score #bb.math.θ bb.calculation matches 253 run scoreboard players set #bb.math.result bb.variable -292
+execute if score #bb.math.θ bb.calculation matches 254 run scoreboard players set #bb.math.result bb.variable -276
+execute if score #bb.math.θ bb.calculation matches 255 run scoreboard players set #bb.math.result bb.variable -259
+execute if score #bb.math.θ bb.calculation matches 256 run scoreboard players set #bb.math.result bb.variable -242
+execute if score #bb.math.θ bb.calculation matches 257 run scoreboard players set #bb.math.result bb.variable -225
+execute if score #bb.math.θ bb.calculation matches 258 run scoreboard players set #bb.math.result bb.variable -208
+execute if score #bb.math.θ bb.calculation matches 259 run scoreboard players set #bb.math.result bb.variable -191
+

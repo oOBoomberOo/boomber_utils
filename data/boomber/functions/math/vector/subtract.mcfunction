@@ -1,3 +1,8 @@
+# Subtracting 3D vector
+# <- Vector<Number> [x, y, z]: vector of center coordinate, 
+# 	 Vector<Number> [i, j, k]: vector of target coordinate
+# -> Vector<Number> [result.x, result.y, result.z]
+
 scoreboard players operation #bb.math.x₁ bb.variable = #bb.math.input.x bb.variable
 scoreboard players operation #bb.math.y₁ bb.variable = #bb.math.input.y bb.variable
 scoreboard players operation #bb.math.z₁ bb.variable = #bb.math.input.z bb.variable
