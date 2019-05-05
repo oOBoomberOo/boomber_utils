@@ -203,7 +203,7 @@ Return: #bb.math.result.x = 1×cos(45) - 1×sin(45) = 707 - 707 = 0 (Float4 0)
 
 ### <a href='#coordinate' name='coord-rotate3d'>Rotate 3D</a>
 Unlike 2D system, 3D system require more than one axis to rotate a point so we have to split them into 3 functions
-#### <a href='coord-rotate3d' name='coord-rotate3d-x'>rotateX(p, θ)</a>
+#### <a href='#coord-rotate3d' name='coord-rotate3d-x'>rotateX(p, θ)</a>
 Rotate a point in 3D system along the X axis.  
 Location: `boomber:math/coordinate/rotate3d/x`  
 Input:  
@@ -223,7 +223,7 @@ Return:
  #bb.math.result.y = 2×cos(90) - 3×sin(90) = 0 - 3000 = -3000 (Float4 -3)
  #bb.math.result.z = 3×cos(90) + 2×sin(90) = 0 + 2000 = 2000 (Float4 2)
 ```
-#### <a href='coord-rotate3d' name='coord-rotate3d-y'>rotateY(p, θ)</a>
+#### <a href='#coord-rotate3d' name='coord-rotate3d-y'>rotateY(p, θ)</a>
 Rotate a point in 3D system along the Y axis.  
 Location: `boomber:math/coordinate/rotate3d/y`  
 Input:  
@@ -243,7 +243,7 @@ Return:
  #bb.math.result.y = 2 = 2000 (Float4 2)
  #bb.math.result.z = 3×cos(90) - 1×sin(90) = 0 - 1000 = -1000 (Float4 -1)
 ```
-#### <a href='coord-rotate3d' name='coord-rotate3d-z'>rotateZ(p, θ)</a>
+#### <a href='#coord-rotate3d' name='coord-rotate3d-z'>rotateZ(p, θ)</a>
 Rotate a point in 3D system along the Z axis.  
 Location: `boomber:math/coordinate/rotate3d/z`  
 Input:  
