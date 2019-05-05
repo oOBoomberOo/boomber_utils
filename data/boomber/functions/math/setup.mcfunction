@@ -1,3 +1,8 @@
+scoreboard objectives add bb.function dummy
+scoreboard objectives add bb.vector dummy
+scoreboard objectives add bb.coordinate dummy
+scoreboard objectives add bb.float4 dummy
+
 scoreboard players set #-90 bb.variable -90
 scoreboard players set #-1 bb.variable -1
 scoreboard players set #0 bb.variable 0
