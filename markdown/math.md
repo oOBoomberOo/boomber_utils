@@ -17,7 +17,7 @@ Contain many mathematic functions such as sin(), acos(), pow(), etc.
 ## <a href="#table" name="convention">Convention</a>
 * When you see a string that start with "#" such as `#bb.math.foo` you can always assume that this is a scoreboard selector of objective `bb.variable`.  
 So if I say `#bb.math.foo = 42` it'll translate to `/scoreboard players set #bb.math.foo bb.variable 42`
-* `#bb.math.result` will **always** be where the result of math API be.
+* `#bb.math.result` will **always** be where the result of math API be, unless explicitly said so.
 
 ## <a href="#table" name="operation">Operation</a>
 

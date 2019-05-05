@@ -1,0 +1,11 @@
+execute if score #bb.math.number bb.function matches 985..987 run scoreboard players set #bb.math.result bb.variable 80
+execute if score #bb.math.number bb.function matches 988..989 run scoreboard players set #bb.math.result bb.variable 81
+execute if score #bb.math.number bb.function matches 990..992 run scoreboard players set #bb.math.result bb.variable 82
+execute if score #bb.math.number bb.function matches 993..994 run scoreboard players set #bb.math.result bb.variable 83
+execute if score #bb.math.number bb.function matches 995..995 run scoreboard players set #bb.math.result bb.variable 84
+execute if score #bb.math.number bb.function matches 996..997 run scoreboard players set #bb.math.result bb.variable 85
+execute if score #bb.math.number bb.function matches 998..998 run scoreboard players set #bb.math.result bb.variable 86
+execute if score #bb.math.number bb.function matches 998..998 run scoreboard players set #bb.math.result bb.variable 87
+execute if score #bb.math.number bb.function matches 999..999 run scoreboard players set #bb.math.result bb.variable 88
+execute if score #bb.math.number bb.function matches 999..999 run scoreboard players set #bb.math.result bb.variable 89
+execute if score #bb.math.number bb.function matches 1000 run scoreboard players set #bb.math.result bb.variable 90

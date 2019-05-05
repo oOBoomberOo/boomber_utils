@@ -1,0 +1,21 @@
+execute if score #bb.math.θ bb.function matches 120 run scoreboard players set #bb.math.result bb.variable -500
+execute if score #bb.math.θ bb.function matches 121 run scoreboard players set #bb.math.result bb.variable -515
+execute if score #bb.math.θ bb.function matches 122 run scoreboard players set #bb.math.result bb.variable -530
+execute if score #bb.math.θ bb.function matches 123 run scoreboard players set #bb.math.result bb.variable -545
+execute if score #bb.math.θ bb.function matches 124 run scoreboard players set #bb.math.result bb.variable -559
+execute if score #bb.math.θ bb.function matches 125 run scoreboard players set #bb.math.result bb.variable -574
+execute if score #bb.math.θ bb.function matches 126 run scoreboard players set #bb.math.result bb.variable -588
+execute if score #bb.math.θ bb.function matches 127 run scoreboard players set #bb.math.result bb.variable -602
+execute if score #bb.math.θ bb.function matches 128 run scoreboard players set #bb.math.result bb.variable -616
+execute if score #bb.math.θ bb.function matches 129 run scoreboard players set #bb.math.result bb.variable -629
+execute if score #bb.math.θ bb.function matches 130 run scoreboard players set #bb.math.result bb.variable -643
+execute if score #bb.math.θ bb.function matches 131 run scoreboard players set #bb.math.result bb.variable -656
+execute if score #bb.math.θ bb.function matches 132 run scoreboard players set #bb.math.result bb.variable -669
+execute if score #bb.math.θ bb.function matches 133 run scoreboard players set #bb.math.result bb.variable -682
+execute if score #bb.math.θ bb.function matches 134 run scoreboard players set #bb.math.result bb.variable -695
+execute if score #bb.math.θ bb.function matches 135 run scoreboard players set #bb.math.result bb.variable -707
+execute if score #bb.math.θ bb.function matches 136 run scoreboard players set #bb.math.result bb.variable -719
+execute if score #bb.math.θ bb.function matches 137 run scoreboard players set #bb.math.result bb.variable -731
+execute if score #bb.math.θ bb.function matches 138 run scoreboard players set #bb.math.result bb.variable -743
+execute if score #bb.math.θ bb.function matches 139 run scoreboard players set #bb.math.result bb.variable -755
+

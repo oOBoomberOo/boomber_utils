@@ -1,5 +1,5 @@
-# Identification API (ID api)]
-This module intended to create an easy way to assign a custom id to entity and quickly find them later.
+# Identification API (ID api) [Dev]
+This module intended to create an easy way to assign custom id to an entity and quickly find them later.
 
 ## Setup :clap:
 In order for the api to register the entity you want, you have to add tag "boomber.id_api" to the entity.  
@@ -21,11 +21,11 @@ Example: `/execute as @e[type=villager, distance=..5] run function boomber:ident
 
 ## Extras
 ### `boomber.id_api`
-Without this tag the API will refuse to do anything with the entity, this is for performance reason, this tag have a long life time and will continue to exists on an entity until you remove it.
+Without this tag the API will refuse to do anything with the entity, this is for performance reason, this tag has a long lifetime and will continue to exists on an entity until you remove it.
 
 ### `boomber.id_api.found`
-Entities that matches the input id will get tagged with this tag after you run `boomber:identification_api/find`, this tag have a short life time and will get automatically remove after the end of the tick.
+Entities that match the input id will get tagged with this tag after you run `boomber:identification_api/find`, this tag has a short lifetime and will get automatically removed after the end of the tick.
 
 ## `bb.id_api`
 Scoreboard objective to represent ID value of entities.  
-Different entity can have the same ID value and if you run `boomber:identification_api/find` all entities that have the same id as the input id will get tagged with `boomber.id_api.found`
+A different entity can have the same ID value and if you run `boomber:identification_api/find` all entities that have the same id as the input id will get tagged with `boomber.id_api.found`
