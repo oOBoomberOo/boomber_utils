@@ -1,5 +1,6 @@
 # Colliding detection function with respect to the current entity
 # <- Vector<Float4> [x, y, z]: vector of target coordinate, 
+#    Vector<Float4> [w, h, d]: vector of hitbox, 
 #    Entity @s: entity of center coordinate
 # -> Tag boomber.math.collided
 
